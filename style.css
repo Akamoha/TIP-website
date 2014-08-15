@@ -1,0 +1,196 @@
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Condensed'), url('MYRIADPRO-COND.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Semibold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Semibold Italic'), url('MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Semibold'), url('MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Condensed Italic'), url('MYRIADPRO-CONDIT.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold Italic'), url('MYRIADPRO-BOLDIT.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Bold Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold Condensed Italic'), url('MYRIADPRO-BOLDCONDIT.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Bold Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold Condensed'), url('MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Myriad Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+}
+
+#screen {
+    position:fixed;
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.top-div {
+    text-align: center;
+    padding: 3px;
+    height: 50px;
+    background-color: white;
+}
+
+.heading {
+    font-family: 'MYRIADPRO-SEMIBOLD';
+    font-size: 25px;
+    margin-top: 7px;
+    color: grey;
+}
+
+.navbar {
+    align-content: right;
+    min-height: 5px;
+    margin-top: -32px;
+    border-radius: 0px;
+    background-color: #3BB9FF;
+    box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+}
+
+a {
+    color: white;
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 20px;
+}
+
+iframe {
+    height: 20px;
+    border: 0px;
+}
+
+.whatstip {
+    padding: 4px;
+    position: relative;
+    font-family: 'MYRIADPRO-REGULAR';
+    width: 45%;
+    margin-top: 6%;;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    text-align: justify;
+}
+
+.contact {
+    display: inline;
+}
+
+.tipheading {
+    color: gray;
+    text-align: center;
+}
+
+.numbers {
+    width: 50%;
+    float: left;
+}
+
+.tiptext {
+    font-size: 17px;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.followtext {
+    padding: 10px;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.subscribe {
+    padding: 4px;
+    font-family: 'MYRIADPRO-REGULAR';
+    font-size: 18px;
+    width: 98%;
+    background-color: rgba(255,255,255,0);
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+hr {
+    padding: 0px;
+}
+
+.button:hover {
+    background-color: #C2DFFF;
+    font-family: 'MYRIADPRO-BOLD';
+}
+
+input {
+    width: 100%;
+    padding: 3px;
+}
+
+.subscribe-button {
+    background-color: #3BB9FF;
+    box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
+    color: white;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
