@@ -70,7 +70,6 @@ src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
 }
 
 #screen {
-    position:fixed;
     padding:0;
     margin:0;
     width: 100%;
@@ -78,11 +77,65 @@ src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
     background-color: transparent;
 }
 
+#mentorscreen {
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    background-color: #95B9C7;
+}
+
+.round {
+    width: 182px;
+    border-radius: 100%;
+    border: 6px solid white;
+}
+
+.roundpic {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.maindiv {
+    text-align: center;
+}
+
+.person {
+    display: inline-block;
+    padding: 5px 40px 15px 40px;
+}
+
+.number {
+    color: white;
+    font-size: 20px;
+    font-family: "MYRIADPRO-REGULAR";
+}
+
+.mentorname {
+    color: white;
+    font-size: 22px;
+    font-family: "MYRIADPRO-SEMIBOLD";
+}
+
+.projectname {
+    color: #504A4B;
+    font-size: 20px;
+    font-family: "MYRIADPRO-SEMIBOLD";
+}
+
+.details {
+    width: 182px;
+    text-align: center;
+}
+
 .top-div {
     text-align: center;
     padding: 3px;
     height: 50px;
     background-color: white;
+    z-index: 1000;
+    position: relative;
 }
 
 .heading {
@@ -118,11 +171,11 @@ iframe {
     padding: 4px;
     position: relative;
     font-family: 'MYRIADPRO-REGULAR';
-    width: 45%;
-    margin-top: 6%;;
+    width: 70%;
+    margin-top: 8%;;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.7);
     box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
     -moz-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
     -webkit-box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
@@ -181,6 +234,22 @@ input {
     padding: 3px;
 }
 
+.fblink {
+    color: #0020C2;
+    font-size: 15px;
+}
+
+.fblink:hover {
+    color: grey;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 22px;
+    color: #504A4B;
+    font-family: "MYRIADPRO-SEMIBOLD";
+}
+
 .subscribe-button {
     background-color: #3BB9FF;
     box-shadow: inset 0 1px #fff, 0 1px 3px rgba(34,25,25,0.4);
@@ -193,4 +262,12 @@ input {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+a h6:hover {
+    color: grey;
+}
+
+.bigrule {
+    width: 50%;
 }
