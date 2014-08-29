@@ -105,7 +105,7 @@
 .cb-slideshow li:nth-child(4) div {
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
-    -o-animation-delay:  18s;
+    -o-animation-delay: 18s;
     -ms-animation-delay: 18s;
     animation-delay: 18s;
 }
